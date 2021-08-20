@@ -1,0 +1,20 @@
+.Brand {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+  .Brand-id {
+    color: #ff6ac6;
+  }
+
+  .Brand-image {
+    margin-right: 60px;
+
+    img {
+      width: 300px;
+      height: 300px;
+      object-fit: contain;
+    }
+  }
+}

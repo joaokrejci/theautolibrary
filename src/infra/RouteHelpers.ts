@@ -1,0 +1,5 @@
+export const CARS = '/cars'
+export const CARS_API = '/cars'
+export const CARS_EDIT = '/cars/edit'
+export const BRANDS = '/brands'
+export const BRANDS_API = '/brands'

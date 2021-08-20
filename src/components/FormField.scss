@@ -1,0 +1,18 @@
+.FormField {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+
+  label {
+    display: block;
+    font-size: 16px;
+  }
+
+  input {
+    display: block;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid rgba(0,0,0,0.2);
+    margin-top: 5px;
+  }
+}

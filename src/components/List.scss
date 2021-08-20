@@ -1,0 +1,30 @@
+.List {
+  width: 100%;
+
+  thead {
+    font-weight: 600;
+  }
+
+  thead td {
+    background: #efefef;
+  }
+
+  tr {
+    height: 70px;
+    font-size: 20px;
+  }
+
+  tbody tr {
+    &:hover {
+      background-color: #6767ff;
+      color: white;
+    }
+  }
+
+  td {
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+
+}

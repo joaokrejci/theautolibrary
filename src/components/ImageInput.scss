@@ -1,0 +1,13 @@
+.DefaultImage {
+	position: relative;
+
+	img {
+		width: 100%;
+	}
+
+	button {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+}

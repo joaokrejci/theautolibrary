@@ -1,0 +1,16 @@
+.Car {
+  max-width: 600px;
+  margin: auto;
+
+  .Car-id {
+    color: #3bf;
+  }
+
+  .Car-image {
+    img {
+      width: 720px;
+      height: 400px;
+      object-fit: cover;
+    }
+  }
+}

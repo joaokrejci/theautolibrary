@@ -1,0 +1,61 @@
+.LoadingScreen {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Loading {
+
+  .loadingDots {
+    .dot {
+      background: #dddddd;
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      margin: 0 6px;
+      border-radius: 50%;
+      position: relative;
+    }
+
+    #dot1 {
+      animation: blink 2100ms 0ms infinite ease-in-out;
+    }
+
+    #dot2 {
+      animation: blink 2100ms 700ms infinite ease-in-out;
+    }
+
+    #dot3 {
+      animation: blink 2100ms 1400ms infinite ease-in-out;
+    }
+
+    &:before {
+      content: 'loading';
+      color: #ddd;
+      font-size: 18px;
+      font-weight: bold;
+      margin-right: 4px;
+    }
+  }
+}
+
+@keyframes blink {
+  0% {
+    background-color: #dddddd;
+    bottom: 0;
+  }
+  33% {
+    background-color: #a427bd;
+    bottom: 20px;
+  }
+  66% {
+    background-color: #dddddd;
+    bottom: 0;
+  }
+}
